@@ -45,7 +45,9 @@ declare module "react-native-pin-view" {
         customRightButtonDisabled?: boolean
         customRightButton?: React.FunctionComponent<any>
         customRightAccessibilityLabel?:string,
-        customRightButtonViewStyle?: ViewStyle
+        customRightButtonViewStyle?: ViewStyle,
+        customLeftButtonSize?: number,
+        customRightButtonSize?: number
     }
 
     const PinView: React.FunctionComponent<PinViewProps>
